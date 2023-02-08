@@ -1,0 +1,39 @@
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+
+  .header-list {
+    display: flex;
+  }
+
+  .header .container {
+    display: flex;
+  }
+
+ .header-item-tel {
+    display: flex;
+  }
+
+  
+
+  .people {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .people-item {
+    width: calc((100% - 24px) / 2);
+    row-gap: 64px;
+    column-gap: 24px;
+  }
+
+  .customers {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .customers-item {
+    width: calc((100% - 48px) / 3);
+  }
+}

@@ -1,0 +1,54 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1158px;
+  }
+
+  .adventures-link {
+  display: flex;
+  }
+
+  .photo-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-color);
+    margin-bottom: 72px;
+  }
+
+  .photo-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .photo-item {
+  }
+
+  .photo {
+    display: flex;
+    padding-top: 0px;
+    padding-bottom: 120px;
+  }
+
+  .people {
+    background-color: var(--white-color);
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .people-item {
+    width: calc((100% - 96px) / 4);
+  }
+
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .customers-item {
+    width: calc((100% - 120px) / 6);
+  }
+}
