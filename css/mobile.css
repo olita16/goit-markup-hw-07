@@ -1,8 +1,12 @@
 
 @media screen and (min-width: 480px) {
     .container {
-     width: 428px;
+     width: 438px;
     }
+
+    /* .mob-contact {
+        display: none;
+    } */
 
    .people-item {
    }
