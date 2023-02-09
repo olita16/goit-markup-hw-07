@@ -3,9 +3,54 @@
     width: 1158px;
   }
 
-  .adventures-link {
-  display: flex;
+ .mob-contact {
+  flex-direction: row;
+  font-size: 14px;
+ }
+
+  .work {
+    padding-top: 188px;
+    padding-bottom: 188px;
   }
+
+  .turn-list {
+    flex-wrap: nowrap;
+  }
+
+.turn-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.turn-after-title {
+  width: 264px;
+}
+
+.adventures-link {
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.adventures-img {
+  display: flex;
+}
+
+.turn-title {
+  font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-align-last: left;
+}
+
+.turn-after-title {
+  font-weight: 400;
+}
 
   .photo-title {
     font-family: "Roboto", sans-serif;
@@ -25,6 +70,7 @@
   }
 
   .photo-item {
+
   }
 
   .photo {
@@ -33,6 +79,39 @@
     padding-bottom: 120px;
   }
 
+  /* .customers> .container {
+
+  } */
+
+      .photo-title {
+          font-family: "Roboto", sans-serif;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 1.11;
+          text-align: center;
+          letter-spacing: 0.02em;
+          text-transform: capitalize;
+          color: var(--main-color);
+          margin-bottom: 72px;
+        }
+        
+        .photo-list {
+          display: flex;
+          gap: 24px;
+        }
+        
+        .photo-item {
+          width: calc((100% - 48px)) / 3;
+        }
+        
+        /* .photo {
+          padding-top: 0px;
+          padding-bottom: 120px;
+        } */
+
+
+
+
   .people {
     background-color: var(--white-color);
     padding-top: 120px;
@@ -40,7 +119,7 @@
   }
 
   .people-item {
-    width: calc((100% - 96px) / 4);
+    width: calc((100% - 72px) / 4);
   }
 
   .customers {
@@ -48,7 +127,36 @@
     padding-bottom: 120px;
   }
 
+  .customers > .container {
+    width: 100%;
+  }
+
   .customers-item {
     width: calc((100% - 120px) / 6);
   }
-}
+
+  .footer-blocks {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .footer-block {
+    gap: 0;
+  }
+
+  .footer-content {
+    margin-bottom: 72px;
+  }
+
+  .footer-soc-icon {
+    margin-right: 80px;
+  }
+
+  .social-media-list {
+    justify-content: left;
+  }
+
+  .social-media-link:hover,
+  .social-media-link:focus, {
+       background-color: #31d0aa;
+  }
